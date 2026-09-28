@@ -35,6 +35,13 @@
 		<module>src/web</module>
 		<module>src/domain</module>
     </modules>
+	<distributionManagement>
+		<repository>
+			<id>github</id>
+			<name>GitHub Packages</name>
+			<url>https://maven.pkg.github.com/TheLastImperial/spring-storage-module</url>
+		</repository>
+	</distributionManagement>
 	<repositories>
 		<repository>
 			<id>github</id>
